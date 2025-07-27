@@ -1,13 +1,13 @@
 body{
-    font-size : 1.3em;
+    font-size: 1.3em;
     text-align: center;
-}
-.btn{
-    width: 100px;
-    height: 30px;
-    margin: 30px;
 }
 .line{
     border: 1px solid black;
     margin : 20px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
 }
