@@ -1,6 +1,6 @@
 function showPrice(){
-    var originalPrice = prompt("원래 가격을 입력하세요");
-    var rate = prompt("할인율을 입력하세요");
+    var originalPrice = document.querySelector("#original_price").value;
+    var rate = document.querySelector("#discount_percentage").value;
     var savedPrice = originalPrice * (rate/100);
     var resultPrice = originalPrice - savedPrice;
     document.querySelector("#result").innerHTML = `상품의 원래 가격은 ${originalPrice}원이고, 할인율은 ${rate}%입니다.`
