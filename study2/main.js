@@ -5,3 +5,6 @@ function calc(){
     
     document.querySelector("#result").innerHTML= "당신의 나이는" + age +"세 입니다."
 }
+
+//let : 지역변수. {}밖으로 나가면 사용할수없다.
+//const : 상숫값 선언.
