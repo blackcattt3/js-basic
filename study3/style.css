@@ -1,4 +1,10 @@
 body{
-    font-size : 1.3em;
+    font-size: 1.3em;
     text-align: center;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    margin-bottom: 20px;
 }

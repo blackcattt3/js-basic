@@ -1,8 +1,9 @@
-function showPrice(){
-    var originalPrice = document.querySelector("#original_price").value;
-    var rate = document.querySelector("#discount_percentage").value;
-    var savedPrice = originalPrice * (rate/100);
-    var resultPrice = originalPrice - savedPrice;
-    document.querySelector("#result").innerHTML = `상품의 원래 가격은 ${originalPrice}원이고, 할인율은 ${rate}%입니다.`
-    document.querySelector("#cost-result").innerHTML = `할인받는 가격은 ${savedPrice}원으로 ${resultPrice}원에 구매하실수 있습니다`
+function calc(){
+    var originPrice = document.querySelector("originPrice").value;
+    var rate = document.querySelector("#rate").value;
+    if(originPrice && rate){
+        var savedPrice = originPrice * (rate/100);
+        var resultPrice = originPrice - savedPrice;
+        document.querySelector("#showResult").innerHTML = `${savedPrice}원 할인되어 ${resultPrice}원에 구매하실수 있습니다`
+    }
 }

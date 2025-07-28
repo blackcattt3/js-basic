@@ -8,16 +8,18 @@
 </head>
 <body>
     <div>
-        <label for="original_price">원래 가격</label>
-        <input type="number" id="original_price"/>원<br>
+        <ul>
+            <label for="originPrice">원래 가격</label>
+            <input type="number" id="originPrice"/>원
+        </ul>
+        <ul>
+            <label for="rate">할인율</label>
+            <input type="number" id="rate"/>%
+        </ul> 
     </div>
-    <div>
-        <label for="discount_percentage">할인율</label>
-        <input type="number" id="discount_percentage"/>%<br>
-    </div>
-    <button onclick="showPrice()" class="price_calc_button">할인 가격 계산하기</button>
-    <div id="result">결과가 표시됩니다</div>
-    <div id="cost-result"></div>
+    
+    <button class="btn" onclick="calc()">계산하기</button>
+    <div id="showResult">결과가 표시됩니다</div>
 
     <script src="main.js"></script>
 </body>
