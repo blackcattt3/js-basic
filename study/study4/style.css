@@ -1,0 +1,13 @@
+body{
+    /* display: inline-block; */
+    font-size: 2em;
+    text-align: center;
+}
+/* div{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+    border: 1px solid black;
+    padding : 0px 20px 30px 20px;
+} */
+/* 위  오른 아래 왼 -> 시계방향!*/
