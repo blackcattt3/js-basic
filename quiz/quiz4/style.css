@@ -1,0 +1,13 @@
+body{
+    font-size: 1.3em;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    padding: 20px 20px 30px 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+span{
+    font-size : 1.5em;
+}
