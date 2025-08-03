@@ -1,0 +1,11 @@
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    display: flex;
+}
+button{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}

@@ -1,0 +1,13 @@
+#item{
+    position: relative;
+    width: 500px;
+    height: auto;
+    padding: 20px 20px; /*위아래쪽 왼오른쪽*/
+    margin: auto;
+}
+/* .over{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+} */
+
