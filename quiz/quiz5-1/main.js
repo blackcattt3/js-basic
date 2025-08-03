@@ -75,7 +75,8 @@
 
 
 
-var getNumber = document.querySelector("#btn1");
+// var getNumber = document.querySelector("#btn1");
+var getNumber = document.getElementById("btn1");
 var showResult = document.getElementById("btn2");
 
 getNumber.onclick = calc;

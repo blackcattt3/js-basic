@@ -4,6 +4,7 @@
     height: auto;
     padding: 20px 20px; /*위아래쪽 왼오른쪽*/
     margin: auto;
+    /* border: 1px solid red; */
 }
 /* .over{
     position: absolute;

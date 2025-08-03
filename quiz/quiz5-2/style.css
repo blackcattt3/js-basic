@@ -1,0 +1,15 @@
+/* .item{
+    position: relative;
+    width: 500px;
+    height: auto;
+    
+}
+.over{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+} */
+
+
+/* border: 1px solid red; */
+/* 아무것도 수치 안정해놓으면 0,0에 있지않는다! 0,0에 두고싶으면 left:0px; bottom:0px;로 해놔야함 */
