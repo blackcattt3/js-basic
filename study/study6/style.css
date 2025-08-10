@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width:300px;
+    height:500px;
+    border: 5px solid gray;
+}
+.date{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.title{
+    height: 30px;
+    background-color: gray;
+    line-height: 30px;      /* height랑 같은 크기 주기 */
+    /* 텍스트가 한줄일 경우 부모에 line-height, height 값을 같게 주면 텍스트가 세로 가운데 정렬 */
+    text-align: center;
+    color: white
+}
+.line{
+    height: 80px;
+    border-bottom: 1px solid gray;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.line-last{
+    height: 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.text-display{
+    line-height: 10%
+}
