@@ -94,6 +94,7 @@ function showList(){
     document.getElementById("item-list").innerHTML = list;
 
     let remove = document.querySelectorAll(".close");   // 삭제버튼을 변수로 저장. 배열 형태가 됨.
+    // querySelectorAll -> css선택자 문법을 이용해서 조건에 맞는 모든 요소를 한번에 찾아 NodeList로 반환하는 메서드
     for (let i=0;i<remove.length;i++){
         remove[i].addEventListener("click", removeList);
     }
