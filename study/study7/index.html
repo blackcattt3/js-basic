@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h3>여행 준비물 점검 목록</h3>
+    <form>
+        <input type="text" id="item" autofocus="true">
+        <button type="button" id="add-btn">추가</button>
+        <!-- type을 button으로 둬야 추가버튼을 눌렀을때 새로고침을 하지 않고 리스트에 저장한다.
+        기본은 type="submit" 임. 이건 추가버튼 누를때마다 새로고침 됌. -->
+    </form>
+    <div id="item-list"></div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
