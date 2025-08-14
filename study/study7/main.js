@@ -103,6 +103,10 @@ function showList(){
 function removeList(){
     // console.log(this);
     let id = this.getAttribute("id");       // this(누른 버튼)의 id값 가져와 id 변수에 저장
+    // getAttribute : 지정한 속성의 값을 가져오는 함수
+    // 여기서는 removeList가 이벤트 리스너로 등록된 함수라서,
+    // this는 “이벤트가 발생한 요소”를 가리킴.
+    // 즉, 클릭된 .close <span> 자체.
     itemList.splice(id,1);   //인덱스(id)에서 요소 한개만 삭제
     showList();
 }
