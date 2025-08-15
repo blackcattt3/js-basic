@@ -110,3 +110,4 @@ function removeList(){
     itemList.splice(id,1);   //인덱스(id)에서 요소 한개만 삭제
     showList();
 }
+
