@@ -47,8 +47,18 @@ function newRegister(){
     let userName = document.querySelector("#userName");
     let newText = document.createTextNode(userName.value);
     newP.appendChild(newText);
-    
-    let nameList = document.getElementById("nameList");
-    nameList.appendChild(newP);
+
+    let delBttn = document.createElement("span");
+    let delText = document.createTextNode("X");
+    delBttn.appendChild(delText);
+    // let delAttr = document.createAttribute("class");
+    // delAttr.value = "del";
+    // delBttn.setAttributeNode(delAttr);
+    delBttn.setAttribute("class", "del");
+    newP.appendChild(delBttn);
+
+    let nameList = document.querySelector("#nameList");
+    // nameList.appendChild(newP);
+    nameList.insertBefore(newP,nameList.childNodes[0]);
     userName.value = "";
 }
