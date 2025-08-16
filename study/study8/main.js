@@ -1,15 +1,15 @@
-let isOpen = false;
-let bigPic = document.querySelector("#cup");
-let smallPic = document.querySelectorAll(".small");
+// let isOpen = false;
+// let bigPic = document.querySelector("#cup");
+// let smallPic = document.querySelectorAll(".small");
 
-for(let i=0;i<smallPic.length;i++){
-    smallPic[i].addEventListener("click", showBig);
-}
-// this로 매개!
-function showBig(){
-    let showImg = this.getAttribute("src");
-    bigPic.setAttribute("src", showImg);
-}
+// for(let i=0;i<smallPic.length;i++){
+//     smallPic[i].addEventListener("click", showBig);
+// }
+// // this로 매개!
+// function showBig(){
+//     let showImg = this.getAttribute("src");
+//     bigPic.setAttribute("src", showImg);
+// }
 
 // var myRect = document.querySelector("#rect");
 // myRect.addEventListener("mouseover", function() {  // mouseover 이벤트 처리
@@ -29,15 +29,26 @@ function showBig(){
 //     document.querySelector("#view").style.display = "none";
 // }
 
-let view = document.querySelector("#view");
-view.addEventListener("click", function(){
-    if(isOpen == false){
-        document.querySelector("#detail").style.display = "block";
-        view.innerHTML = "상세 설명 닫기";
-        isOpen = true;
-    } else{
-        document.querySelector("#detail").style.display = "none";
-        view.innerHTML = "상세 설명 보기";
-        isOpen = false;
-    }
-})
+// let view = document.querySelector("#view");
+// view.addEventListener("click", function(){
+//     if(isOpen == false){
+//         document.querySelector("#detail").style.display = "block";
+//         view.innerHTML = "상세 설명 닫기";
+//         isOpen = true;
+//     } else{
+//         document.querySelector("#detail").style.display = "none";
+//         view.innerHTML = "상세 설명 보기";
+//         isOpen = false;
+//     }
+// })
+
+function newRegister(){
+    let newP = document.createElement("p");
+    let userName = document.querySelector("#userName");
+    let newText = document.createTextNode(userName.value);
+    newP.appendChild(newText);
+    
+    let nameList = document.getElementById("nameList");
+    nameList.appendChild(newP);
+    userName.value = "";
+}

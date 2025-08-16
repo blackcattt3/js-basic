@@ -22,7 +22,7 @@
 
 
 
-    <div id="container">
+    <!-- <div id="container">
         <h1 id="heading">에디오피아 게뎁</h1>
         <div id="prod-pic">
             <img src="/img/coffee-pink.jpg" alt="에디오피아 게뎁" id="cup" width="200" height="200">
@@ -60,7 +60,7 @@
                 <h3>Flavor Note</h3>
                 <p>은은하고 다채로운 꽃향, 망고, 다크 체리, 달달함이 입안 가득.</p>
         </div>
-    </div>
+    </div> -->
 
     <!-- <h1 id="heading">JS와 CSS</h1>
 	<p id="desc">자바스크립트를 사용해서 웹 문서의 CSS 속성을 제어할 수 있습니다.</p> -->
@@ -69,6 +69,19 @@
 		<p>도형 위로 마우스 포인터를 올려놓으세요.</p>
 		<div id="rect"></div>
 	</div>	 -->
+
+
+    <div id="container" class="display">
+
+        <h2>참가신청</h2>
+        <form>
+            <input type="text" id="userName" placeholder="이름" required>
+            <button onclick="newRegister();return false;">신청</button>
+        </form>
+        <div id="nameList"></div>
+
+    </div>
+
 
     <script src="main.js"></script>
 </body>

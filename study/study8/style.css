@@ -1,4 +1,4 @@
-#container { 
+/* #container { 
     width:600px;
     margin:0 auto;
 }
@@ -86,7 +86,7 @@ p {
     font-size:0.9em;
     line-height:1.4;
     text-align: justify;
-}
+} */
 
 /* #container {
     width:600px;
@@ -100,3 +100,23 @@ p {
     margin:30px auto;
     transition: 1s;
 } */
+
+
+/* .accent {
+    border:1px solid #222;
+    padding:15px 20px;
+    background-color:#eee;
+}
+.bold {
+    font-weight:bold;
+} */
+
+html,body{
+    height: 100%;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
