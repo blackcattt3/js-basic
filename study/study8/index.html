@@ -20,9 +20,9 @@
         </div>
     </div>  -->
 
+<!-- 
 
-
-    <!-- <div id="container">
+    <div id="container">
         <h1 id="heading">에디오피아 게뎁</h1>
         <div id="prod-pic">
             <img src="/img/coffee-pink.jpg" alt="에디오피아 게뎁" id="cup" width="200" height="200">
@@ -62,6 +62,8 @@
         </div>
     </div> -->
 
+
+
     <!-- <h1 id="heading">JS와 CSS</h1>
 	<p id="desc">자바스크립트를 사용해서 웹 문서의 CSS 속성을 제어할 수 있습니다.</p> -->
 
@@ -71,17 +73,18 @@
 	</div>	 -->
 
 
-    <div id="container" class="display">
+    <!-- <div id="container" class="display">
 
         <h2>참가신청</h2>
         <form>
             <input type="text" id="userName" placeholder="이름" required>
-            <button onclick="newRegister();return false;">신청</button>
+            <button id="btn">신청</button>
         </form>
         <div id="nameList"></div>
 
-    </div>
+    </div> -->
 
+    <!-- onclick="newRegister();return false -->
 
     <!-- <div id="container">
         <h1>참석자 명단</h1>
@@ -91,6 +94,17 @@
             <p>도레미 <span class="del">X</span></p>
         </div>
     </div> -->
+
+
+    <div id="container">
+        <h2>신청자 명단</h2>
+        <form>
+            <input type="text" id="user-name">
+            <button onclick="newRegister();return false;"id="btn">신청</button>
+        </form>
+        <div id="name-list"></div>
+
+    </div>
 
 
     <script src="main.js"></script>
