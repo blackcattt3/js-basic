@@ -61,4 +61,14 @@ function newRegister(){
     // nameList.appendChild(newP);
     nameList.insertBefore(newP,nameList.childNodes[0]);
     userName.value = "";
+
+    let removeBttns = document.querySelectorAll(".del");
+
+    for(let i=0;i<removeBttns.length;i++){
+        removeBttns[i].addEventListener("click", function(){
+            if(this.parentNode.parentNode){
+                this.parentNode.parentNode.removeChild(this.parentNode);
+            }
+        });
+    }
 }
