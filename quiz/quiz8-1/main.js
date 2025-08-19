@@ -5,9 +5,9 @@
 //     this.style.backgroundColor = "#ccc";
 // })
 
-let list = document.querySelectorAll(".list");
-for(let i=0;i<list.length;i++){
-    list[i].addEventListener("click", function(){
-        this.style.color = "#ccc";
-    })
-}
+// let list = document.querySelectorAll(".list");
+// for(let i=0;i<list.length;i++){
+//     list[i].addEventListener("click", function(){
+//         this.style.color = "#ccc";
+//     })
+// }
