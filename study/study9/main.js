@@ -43,8 +43,44 @@
 // }
 
 
-let selectMenu = document.testForm.major;
-function displaySelect(){
-    let selectedText = selectMenu.options[selectMenu.selectedIndex].innerText;
-    alert(`${selectedText}를 선택했습니다`);
+// let selectMenu = document.testForm.major;
+// function displaySelect(){
+//     let selectedText = selectMenu.options[selectMenu.selectedIndex].innerText;
+//     alert(`${selectedText}를 선택했습니다`);
+// }
+
+
+
+// let billingName = document.order.billingName;
+// let billingName = document.querySelector("#billingName")
+// let billingAddr = document.order.billingAddr;
+// let shippingName = document.ship.shippingName;
+// let shippingAddr = document.ship.shippingAddr;
+// let check = document.querySelector("#shippingInfo");
+
+// check.addEventListener("click", write);
+
+// function write(){
+//     if(check.checked==true){
+//         shippingName.value = billingName.value;
+//         shippingAddr.value = billingAddr.value;
+//     } else{
+//         shippingName.value = "";
+//         shippingAddr.value = "";
+//     }
+// }
+
+
+
+let userId = document.querySelector("#user-id");
+let userPassword1 = document.querySelector("#user-password");
+let userPassword2 = document.querySelector("#user-password-correct");
+
+userId.addEventListener("change", checkId);
+
+function checkId(){
+    if(userId.value.length < 8){
+        alert("아이디는 8자 이상으로 설정하세요");
+        userId.select();
+    }
 }
