@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- <div id="container">
+		<form name="order">
+			<fieldset>
+				<legend> 주문 정보 </legend>
+				<ul>
+					<li>
+						<label class="field" for="billingName">이름 : </label>
+						<input type="text" class="input-box" id="billingName" name="billingName">
+					</li>
+					<li>
+						<label class="field" for="billingTel">연락처 : </label>
+						<input type="text" class="input-box" id="billingTel" name="billingTel">	
+					</li>
+					<li>
+						<label class="field" for="billingAddr">주소 : </label>
+						<input type="text" class="input-box" id="billingAddr" name="billingAddr">
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+		<form name="ship">
+			<fieldset>
+				<legend> 배송 정보 </legend>								
+				<ul>
+					<li>
+						<input type="checkbox" id="shippingInfo" name="shippingInfo">
+						<label for="bill_info" class="check">주문 정보와 배송 정보가 같습니다</label>
+					</li>
+					<li>
+						<label class="field" for="shippingName">이름 : </label>
+						<input type="text" class="input-box" id="shippingName" name="shippingName">
+					</li>
+					<li>
+						<label class="field" for="shippingTel">연락처 : </label>
+						<input type="text" class="input-box" id="shippingTel" name="shippingTel">	
+					</li>
+					<li>
+						<label class="field" for="shippingAddr">주소 : </label>
+						<input type="text" class="input-box" id="shippingAddr" name="shippingAddr">
+					</li>
+				</ul>				
+			</fieldset>
+			<button type="submit" class="order">결제하기</button>
+		</form>		
+	</div> -->
+
+
+
+
+    <!-- <div id="container">
+        <h3>로그인</h3>
+        <form>
+          <div id="login_input">
+            <input type="text" autofocus placeholder="아이디">
+            <input type="password" placeholder="비밀번호">
+          </div>
+          <div id="login_bttn">
+            <button type="submit" class="order">로그인</button>
+          </div>
+        </form>
+    </div> -->
+
+
+    <!-- <div id="container">
+		<h1>회원 가입</h1>
+		<form action="#" id="register">
+			<ul id="user-info">
+				<li>
+					<label for="user-id" class="field">아이디</label>
+					<input type="text" id="user-id" placeholder="4~15자리의 영문과 숫자로 입력" required>
+				</li>
+				<li>
+					<label for="email" class="field">이메일</label>
+					<input type="email" id="email" required>
+				</li>
+				<li>
+					<label for="user-pw1" class="field">비밀번호</label>
+					<input type="password" id="user-pw1" placeholder="8자리 이상" required>
+				</li>
+				<li>
+					<label for="user-pw2" class="field">비밀번호 확인</label>
+					<input type="password" id="user-pw2" required>
+				</li>
+				<li>
+					<label class="field">메일링 수신</label>
+					<label class="r"><input type="radio" value="yes" name="mailing">예</label>
+					<label class="r"><input type="radio" value="no" name="mailing">아니오</label>
+				</li>
+			</ul>
+			<ul id="buttons">
+				<li>
+					<button type="submit" class="btn btnBlack">가입하기</button>					
+				</li>
+				<li>
+					<button type="reseet" class="btn btnGray">취소</button>
+				</li>
+			</ul>
+		</form>
+	</div> -->
+
+
+    <div id="container">
+		<h1>수강신청</h1>
+		<form name="testForm">
+			<fieldset>
+				<legend>신청인</legend>
+				<ul>
+					<li>       	
+						<label class="reg" for="userName">이름</label>
+						<input type="text" id="userName" name="userName" maxlength="50">               
+					</li>
+					<li>
+						<label class="reg" for="class">학과</label>
+						<select name="major" id="major" onchange="displaySelect()">
+							<option>---- 학과 선택 ----</option>
+							<option value="archi">건축공학과</option>
+							<option value="mechanic">기계공학과</option>
+							<option value="indust">산업공학과</option>
+							<option value="elec">전기전자공학과</option>
+							<option value="computer">컴퓨터공학과</option>
+							<option value="chemical">화학공학과</option>
+						</select>
+					</li>
+				</ul>				
+			</fieldset>
+			<fieldset>
+				<legend>신청 과목</legend>
+				<p>이 달에 신청할 과목을 선택하세요.</p>
+				<label><input type="radio" name="subject" value="speaking">회화</label>
+				<label><input type="radio" name="subject" value="grammar">문법</label>
+				<label><input type="radio" name="subject" value="writing">작문</label>       
+			</fieldset>
+			<fieldset>
+				<legend>메일링</legend>
+				<p>메일로 받고 싶은 뉴스 주제를 선택해 주세요</p>
+				<label><input type="checkbox" name="mailing1" value="news">해외 단신</label>
+				<label><input type="checkbox" name="mailing2" value="dialog">5분 회화</label>
+				<label><input type="checkbox" name="mailing3" value="pops">모닝팝스</label>
+			</fieldset>
+		</form>
+	</div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
