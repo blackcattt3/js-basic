@@ -1,0 +1,9 @@
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#first{
+    border-bottom: 2px solid #ccc;
+}
