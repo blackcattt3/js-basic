@@ -72,15 +72,15 @@
 
 
 
-let userId = document.querySelector("#user-id");
-let userPassword1 = document.querySelector("#user-password");
-let userPassword2 = document.querySelector("#user-password-correct");
+// let userId = document.querySelector("#user-id");
+// let userPassword1 = document.querySelector("#user-password");
+// let userPassword2 = document.querySelector("#user-password-correct");
 
-userId.addEventListener("change", checkId);
+// userId.addEventListener("change", checkId);
 
-function checkId(){
-    if(userId.value.length < 8){
-        alert("아이디는 8자 이상으로 설정하세요");
-        userId.select();
-    }
-}
+// function checkId(){
+//     if(userId.value.length < 8){
+//         alert("아이디는 8자 이상으로 설정하세요");
+//         userId.select();
+//     }
+// }
